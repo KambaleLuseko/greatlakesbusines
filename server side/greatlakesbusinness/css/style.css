@@ -1,0 +1,252 @@
+body
+{
+	font-family: 'Century Gothic';
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+.movePage
+{
+	color: white;
+	text-decoration: none;
+}
+.movePage:hover
+{
+	color: #cccccc;
+
+}
+#returnMessage
+{
+	/* padding: 10px; */
+	text-align: center;
+	/* display: block; */
+	width: 100%;
+}
+
+a 
+{
+	text-decoration: none;
+}
+.center-block
+{
+	margin: 0 auto;
+}
+
+#divLogin
+{
+	position: absolute;
+	/*top: 150px;*/
+	left: 0;
+	right: 0;
+    background-color: rgba(0, 0, 50, 0.4);
+	padding: 10px;
+	border-radius: 10px;
+	/*margin-bottom: 100px;*/
+	font-family: 'Century Gothic';
+}
+#logIcon
+{
+	margin-top: -50px;
+	margin-left: 40%;
+	/*right: 30%;*/
+	width: 60px;
+	height: 60px;
+	color: white;
+}
+/* ------------------------------------header area---------------------------------------- */
+#contact-bar
+{
+	background-color: #1f94bf;
+	color: rgb(220, 220, 220);
+	padding: 10px;
+	margin: 0px;
+	height: auto;
+}
+.title
+{
+	font-size: 30px;
+}
+#header
+{
+	font-family: 'Century Gothic';
+	width: 100%;
+	padding: 0px;
+	width:100%;
+	margin:0px;
+	/*border-radius: 10px;*/
+	border-bottom: 1px solid gray;
+	/*background-color: red;*/
+}
+#header h1 
+{
+	font-size: 40px;
+}
+.contact
+{
+	color: whitesmoke;
+	font-size: 12px;
+	cursor: pointer;
+}
+.icon
+{
+	width:20px;
+	height: 20px;
+	margin-left: 10px;
+}
+
+
+/* -----------------------------------------Page content area-------------------------------- */
+#content
+{
+	padding: 10px;
+}
+.container
+{
+	font-family: 'Century Gothic';
+}
+.page-title
+{
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	color: black;
+	background: rgb(220, 220, 220);
+	display: block;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#itemArticle
+{
+	position: relative;
+	margin: 0px auto;
+	border-radius: 5px;
+	overflow: hidden;
+	max-width: 300px;
+	min-height: 300px;
+    max-height: 300px;
+	font-family: "Century Gothic";
+	padding: 2px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#itemArticle h3
+{
+	/* position: absolute; */
+	margin: 0;
+	padding: 10px;
+	top: 5px;
+	transform:translateY(-30%);
+	color: white;
+	text-align: center;
+	width: 100%;
+	text-shadow:0 2px 5px rgba(0,0,0,0.2);
+	transition:.5s;
+	background: rgba(0,0,0, 0.7);
+}
+#img
+{
+	margin-top:-15px;
+}
+
+#itemArticle p
+{
+	position: absolute;
+	bottom: 0px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	background: rgba(0,0,0,0.7);
+	/* transform:translateY(50px); */
+	transition:.5s;
+	color: #fff;
+	padding: 5px;
+	display: inline-block;
+}
+
+
+
+/* ------------------------menu area---------------------------- */
+
+#menu
+{
+	width:200px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: -200px;
+	background: rgb(24, 24, 24);
+	color: white;
+	font-family: 'Century Gothic';
+	transition: all .5s ease;
+	z-index: 9999999999;
+	overflow: auto;
+}
+#menu .nav ul a
+{
+	display: block;
+	width: 100%;
+	/* height: 40px; */
+	padding: 10px;
+	left: 0px;
+	margin-left: -20px;
+	text-decoration: none;
+	color:white;
+	border-bottom: 1px solid gray;
+}
+#menu .nav ul a:hover
+{
+	background: white;
+	color: rgb(100, 100, 100);
+}
+#menu .nav ul a li
+{
+	list-style: none;
+}
+
+.profileImg
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	/*border: 1px solid grey;*/
+	/*margin: 0 auto;*/
+	margin-left: 30px;
+}
+
+
+
+
+/* ----------------------------------------footer area ---------------------------- */
+#footer
+{
+	font-family: 'Century Gothic';
+	background: black;
+}
+#details-footer
+{
+	background: #069e98;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+#copyright
+{
+	background: rgb(24, 24, 24);
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.contactItem
+{
+	display: block;
+	margin-bottom: 10px;
+}
